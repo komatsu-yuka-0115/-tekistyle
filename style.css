@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+html{
+    padding: 0 30px;
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+a:link,a:valid,a:hover,a:active{
+    color:#808080 ;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    padding: 35px 0;
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.nav{
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    font-size: 1.5rem;
+
+}
+
+.nav-item{
+    padding-left: 20px;
+}
+
+.top-pc{
+    display: block !important;
+    padding: 15px 0;
+}
+
+.top-sp{
+    display: none !important;
+}
+
+.heading{
+    letter-spacing: 1px;
+    font-size: 2rem;
+    border-bottom: 1.5px dotted #333;
+    
+}
+
+
+.scroll-list{  
+    margin-top: 20px;
+    font-size: 1.5rem;
+    max-height: 115px;
+    overflow-y: auto;
+    display: block;
+    line-height: 2rem;
+}
+
+.scroll-item{
+    padding: 6px;
+    list-style: none;
+}
+
+
+.scroll-item:nth-of-type(odd){
+    background-color:#dcdcdc;
+}
+
+.date{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.categoly{
+    padding:4px 5px;
+    color: #fff;
+    background-color:#ff6347;
+    border-radius: 2px;
+    letter-spacing: 2px;
+}
+
+.topic{
+    background-color: #9dc7cc;
+    color: #fff;
+}
+
+
+.title{
+    padding:0  10px;
+}
+
+.documents{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 30px;
+    
+}
+
+.document-img{
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.document-item{
+    padding: 0 50px;
+}
+
+.document-titile{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+
+.snses{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.sns-item{
+    font-size: 6rem;
+    padding: 30px;
+}
+
+footer{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+@media (max-width:700px){
+    header{
+       justify-content: center;
+       margin-bottom: -45px;
+        
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+
+    .top-pc{
+        display: none !important;
+    }
+    
+    .top-sp{
+        padding: 30px 0;
+        display: block !important;
+    }
+    
+    .nav{
+        display:  block;
+        line-height: 2rem;
+        font-size: 1.5rem;
+    
+    }
+
+    .scroll-list{ 
+         margin-top: 10px;
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+    }
+
+    .heading{
+        letter-spacing: 0.2px;
+        font-size: 1.7rem;
+        border-bottom: 1.5px dotted #333;
+        
+    }
+
+    .categoly{
+        padding:1px 3px;
+        border-radius: 1px;
+        
+    }
+
+    .documents{
+        display: block;
+       text-align: center;
+        padding: 0 10px;
+    }
+
+    .document-titile{
+       padding-top: 80px;
+    }
+
+    .snses{
+         padding-top: 100px;
+    }
+
+    .sns-item{
+        font-size: 4rem;
+        padding: 10px;
+    }
+
+    
+    
+    
+    
+}
